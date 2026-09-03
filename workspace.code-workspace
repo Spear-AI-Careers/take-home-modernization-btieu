@@ -1,0 +1,53 @@
+{
+  "extensions": {
+    "recommendations": [
+      "bungcip.better-toml",
+      "charliermarsh.ruff",
+      "matangover.mypy",
+      "ms-azuretools.vscode-docker",
+      "ms-python.python",
+      "rust-lang.rust-analyzer",
+      "sleistner.vscode-fileutils",
+      "tyriar.sort-lines",
+      "yzhang.markdown-all-in-one"
+    ],
+    "unwantedRecommendations": []
+  },
+  "folders": [
+    {
+      "name": "spear-ai",
+      "path": "."
+    },
+    {
+      "name": "spear-ai/sonar-legacy",
+      "path": "packages/sonar-legacy"
+    },
+    {
+      "name": "spear-ai/sonar-modern",
+      "path": "packages/sonar-modern"
+    }
+  ],
+  "settings": {
+    "editor.autoClosingQuotes": "always",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    },
+    "editor.formatOnSave": true,
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "files.associations": {
+      ".eslintrc.json": "jsonc",
+      ".env.*": "env",
+      "stdlib.h": "c",
+      "library.h": "c"
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.env.osx": {
+      "MallocNanoZone": "1"
+    },
+    "testing.automaticallyOpenPeekView": "never"
+  }
+}
