@@ -1,0 +1,10 @@
+^C:\USERS\BENJA\ONEDRIVE\DESKTOP\PRACTICE CODE\TAKEHOM\TAKE-HOME-MODERNIZATION-BTIEU\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/benja/OneDrive/Desktop/Practice Code/takehom/take-home-modernization-btieu" "-BC:/Users/benja/OneDrive/Desktop/Practice Code/takehom/take-home-modernization-btieu/build" --check-stamp-file "C:/Users/benja/OneDrive/Desktop/Practice Code/takehom/take-home-modernization-btieu/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

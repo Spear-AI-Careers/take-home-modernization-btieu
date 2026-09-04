@@ -2,46 +2,19 @@
 
 ## Overview
 
-You've inherited a package that classifies and detects underwater objects. How cool!
+Hi Spear AI Hiring team!
 
-You are resuming development of this capability to meet the needs of today's submarine captains, so it can once again be used in active duty vessels.
-However, the code hasn't been updated in decades and it does not use modern software engineering best practices.
+Thanks so much for giving me the opperunity to meet with you guys during the first interview.
+It was great getting the chance to know more about Spear AI and chatting about the things 
+you all were looking for. My attempt at modernizing the Sonar Detection and Data generation 
+C Code is in this repo. 
 
-## Task
+While I am much more familiar with Python, I translated the code into Rust as that seems like it would be more alligned with the nature of the job. Regardless, it was a great learning experience and I am fascinated with the details of rust (though very very annoyed that everything has to be perfect or else it won't compile). 
 
-Your primary task is to modernize the legacy SONAR package by re-implementing its functionality in the `sonar-modern` directory, adhering to modern software engineering best practices.
+I tried my best to keep the same structure, logic, and even variable/constant names as the original C code. If I deviate from the original C code, I will explain why in the comments.
 
-We want our submarine captain to feel confident that the code will work reliably and correctly in mission-critical situations.
-At the same time, our dev team must be able to efficiently understand, maintain, and extend this package as future mission requirements evolve.
-Your submission should reflect what you feel are the best ways to address these priorities.
+I also left the build of the legacy C code and a CMAKE file. I wanted to run the code and see a couple runs of the output myself before tackling the Rust translation. I also preformed some data analysis to make sure that the output of the legacy code and that of the new Rust code were similar (the analysis is not attached as this is "production ready"). 
 
-> [!TIP]
-> We're looking for production ready software that incorporates best-practices for maintainability and development. Consider aspects that contribute to a professional, robust, and easily deployable software package. Don't worry that you're over-engineering it. If you'd want it as part of production code you maintain, then add it!
+I hope you find this translation is faithful and the submarine captain feels confident in its reliability and quality. It was a pleasure to do the assignment and I hope to hear from you folks at Spear AI soon!
 
-## Project Structure
-
-We've structured the codebase as a monorepo with legacy code and modernized code side-by-side:
-
-```shell
-.
-└── packages/
-    ├── sonar-legacy/
-    │   └── …
-    └── sonar-modern/
-        └── …
-```
-
-You may add and edit files anywhere in the project directory structure as necessary for any tooling you choose to use, but place your modernized implementation of the SONAR application in the `packages/sonar-modern` package directory.
-
-## Language Requirements
-
-The legacy package is written in C.
-Write your modern package in either Python or Rust.
-
-## Development Process
-
-You are free to leverage AI tools (eg., Cursor, Copilot, Chat GPT) to assist in your development process. However, the final submission should demonstrate your personal quality standards and engineering decisions. We are interested in your approach to building robust software, not just the output of an AI.
-
-Treat this as though it were an open-source package being built by you in public.
-
-Godspeed.
+Ben Tieu.
