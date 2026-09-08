@@ -1,0 +1,10 @@
+[package]
+name = "sonar-modern"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+path = "src/library.rs"
+
+[dependencies]
+rand = "0.8"

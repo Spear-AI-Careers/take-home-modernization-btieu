@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\benja\OneDrive\Desktop\Practice Code\takehom\take-home-modernization-btieu\build\CMakeFiles\06f556324d6996626e0560cfbab93677\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8472DFE0-5A63-3392-B8F6-6693894A3A5F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
